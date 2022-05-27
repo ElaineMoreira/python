@@ -12,4 +12,3 @@ print(fullName)
 
 fullName.remove("Moreira")
 print(fullName)
-
