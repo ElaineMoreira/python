@@ -1,4 +1,4 @@
-PI = 3,14
+PI = 3.14
 
 def square (side):
   ''' area do quadrado'''
