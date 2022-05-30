@@ -29,3 +29,4 @@ with open("dc-wikia-data.csv") as superheroes_file:
   superheroes_list = csv.DictReader(superheroes_file)
   for superheroe in superheroes_list:
     print(superheroe["name"])
+    print(superheroe)
