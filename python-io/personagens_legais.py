@@ -20,3 +20,12 @@
 #   superheroes_list = json.load(superheroes_file)
 #   for superheroe in superheroes_list:
 #     print(superheroe["after_ego"])
+
+############ CSV ############
+
+import csv
+
+with open("dc-wikia-data.csv") as superheroes_file:
+  superheroes_list = csv.DictReader(superheroes_file)
+  for superheroe in superheroes_list:
+    print(superheroe["name"])
