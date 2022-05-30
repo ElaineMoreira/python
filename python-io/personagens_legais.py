@@ -23,10 +23,18 @@
 
 ############ CSV ############
 
+# import csv
+
+# with open("dc-wikia-data.csv") as superheroes_file:
+#   superheroes_list = csv.DictReader(superheroes_file)
+#   for superheroe in superheroes_list:
+#     print(superheroe["name"])
+#     print(superheroe)
+
+## cabecalho impresso ##
+
 import csv
 
 with open("dc-wikia-data.csv") as superheroes_file:
-  superheroes_list = csv.DictReader(superheroes_file)
-  for superheroe in superheroes_list:
-    print(superheroe["name"])
-    print(superheroe)
+  header, *superheroes_list = csv.reader(superheroes_file)
+  print(header)
