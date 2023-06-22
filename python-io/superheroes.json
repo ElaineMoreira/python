@@ -1,0 +1,15 @@
+[
+  { "superheroe": "Blue Beetle",
+    "publisher": "DC Comics",
+    "after_ego": "Mistery  Men Comics #1",
+    "first-appearance": "Dan Garret",
+    "characters": "Dan Garret, Ted Kord"
+  },
+  {
+    "superheroe": "Spider Man",
+    "publisher": "Marvel Comics",
+    "after_ego": "Peter Parker",
+    "first-appearance": "Flash Comics",
+    "characters": "Peter Parker"
+  }
+]
